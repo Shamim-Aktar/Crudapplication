@@ -1,0 +1,10 @@
+
+
+.user-form { padding:20px; }
+.user-form .field {   padding: 4px;
+    margin: 1px;
+    /* background: #eee; */
+    width: 50%; }
+
+.user-form .field input { display: inline-block;
+    width: 100%; }

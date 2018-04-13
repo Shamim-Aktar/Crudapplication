@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin:0;
+}
+h1{
+    text-align: center;
+  
+    
+}
+.user-form {   
+             
+              margin: 0 auto;
+            }
+
+        
+
+.addBtn{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #03a9f4;
+    border: 1px solid blue;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+     margin-left:18%
+
+}
+.btn_like{
+    border:none;background: #03a9f4
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.quotelist{
+   
+    background:#03a9f4;
+   
+
+}
+
+
+
+
+
+.quotetext{
+       
+       margin: 0px auto;
+}
+.authorname{
+    margin-left: 10px;
+    
+      width:50%;
+
+}
+.removeBtn{
+     top:0px;
+     right:0px;
+     
+     
+}
+            .authname input, .quotes textarea{
+            
+               padding: 10px ;
+               margin:10px;
+               width: 300px;
+              
+            }
+
+                   
+            
+
+
+.deleteButton{
+    padding: 4px;
+  
+    display: inline-flex;
+    border: 1px solid;
+    font-weight: bold;
+  
+}
+section{
+    text-align:center;
+    float:right;
+    
+}
+
+
