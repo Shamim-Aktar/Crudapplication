@@ -49,19 +49,27 @@ class Apps extends React.Component{
         let name=this.refs.name.value;
         let quotes=this.refs.quotes.value;
         let counter = this.state.counter;
-        console.log('-----',counter)
-        console.log(name,quotes)
-        let quotation={name, quotes, counter}
-        counter++;
-        let quotations=this.state.quotations;
 
-        quotations.push(quotation);
-     
-        this.setState({quotations:quotations, counter:counter});
+        if(name=="" && quotes==""){
+            alert("enter the quotes and name")
+        }
+        else{
+            console.log('-----', counter)
+            console.log(name, quotes)
+            let quotation = { name, quotes, counter }
+            counter++;
+            let quotations = this.state.quotations;
 
-        console.log(quotations)
+            quotations.push(quotation);
 
-        this.refs.quotationForm.reset();
+            this.setState({ quotations: quotations, counter: counter });
+
+            console.log(quotations)
+
+            this.refs.quotationForm.reset();
+
+        }
+      
 
     }
 
